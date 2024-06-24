@@ -39,9 +39,9 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@samarth-kamble',
+      creator: '@Samarth_Kamble7',
     },
     icons,
-    metadataBase: new URL("https://samcasecobra.vercel.app/")
+    metadataBase: new URL("https://casecobra-ecommerce-eight.vercel.app")
   }
 }
