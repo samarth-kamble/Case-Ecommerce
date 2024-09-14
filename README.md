@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://www.youtube.com/watch?v=FkowOdMjvYo" target="_blank">
-      <img src="./public/Banner Readme .png" alt="Project Banner">
+      <img src="./public/thumbnail.png" alt="Project Banner">
     </a>
   <br />
 
@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Next_._JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-OpenAI-black?style=for-the-badge&logoColor=white&logo=openai&color=412991" alt="openai" />
+    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="nodejs" />
   </div>
   <h3 align="center">CaseCaobra: Custom iPhone Case</h3>
 </div>
