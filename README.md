@@ -24,9 +24,7 @@
 4. 🤸 [Quick Start](#quick-start)
 
 ## <a name="introduction">🤖 Introduction</a>
-
-    A cutting-edge Custom Case App that enables users to create, discover, and enjoy mobile custom case, with their custom image.
-
+A cutting-edge Custom Case App that enables users to create, discover, and enjoy mobile custom case, with their custom image.
 Case cobra is website to design the mobile case with your photo. Basically this a mobile case store. Here, you put your image on the case. This ecommerce with the admin dashboard. Admin Dashboard access only for the one email which the admin.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
