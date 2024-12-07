@@ -1,6 +1,6 @@
-import { type ClassValue, clsx } from "clsx"
-import { Metadata } from "next"
-import { twMerge } from "tailwind-merge"
+import { type ClassValue, clsx } from 'clsx'
+import { Metadata } from 'next'
+import { twMerge } from 'tailwind-merge'
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -16,7 +16,7 @@ export const formatPrice = (price: number) => {
 }
 
 export function constructMetadata({
-  title = 'CaseCobra - Custom high-quality phone cases',
+  title = 'CaseCobra - custom high-quality phone cases',
   description = 'Create custom high-quality phone cases in seconds',
   image = '/thumbnail.png',
   icons = '/favicon.ico',
@@ -39,9 +39,9 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@Samarth_Kamble7',
+      creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL("https://casecobra-ecommerce-eight.vercel.app")
+    metadataBase: new URL("https://casecobra.vercel.app/")
   }
 }

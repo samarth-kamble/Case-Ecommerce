@@ -3,7 +3,6 @@
 import { BASE_PRICE, PRODUCT_PRICES } from '@/config/products'
 import { db } from '@/db'
 import { stripe } from '@/lib/stripe'
-
 import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server'
 import { Order } from '@prisma/client'
 
@@ -69,9 +68,9 @@ export const createCheckoutSession = async ({
   const stripeSession = await stripe.checkout.sessions.create({
     success_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/thank-you?orderId=${order.id}`,
     cancel_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/configure/preview?id=${configuration.id}`,
-    payment_method_types: ['card',  ],
+    payment_method_types: ['card', 'paypal'],
     mode: 'payment',
-    shipping_address_collection: { allowed_countries: ['DE', 'US',"IN",'CA'] },
+    shipping_address_collection: { allowed_countries: ['DE', 'US'] },
     metadata: {
       userId: user.id,
       orderId: order.id,

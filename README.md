@@ -1,15 +1,17 @@
 <div align="center">
   <br />
-    <a href="https://www.youtube.com/watch?v=FkowOdMjvYo" target="_blank">
+    <a href="https://github.com/samarth-kamble" target="_blank">
       <img src="./public/thumbnail.png" alt="Project Banner">
     </a>
   <br />
 
   <div>
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logoColor=white&logo=postgresql&color=4169E1" alt="postgresql" />
     <img src="https://img.shields.io/badge/-Next_._JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
     <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="nodejs" />
+    <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
   </div>
   <h3 align="center">CaseCaobra: Custom iPhone Case</h3>
 </div>
@@ -92,13 +94,34 @@ bun install
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL='/sign-in'
-NEXT_PUBLIC_CLERK_SIGN_UP_URL='/sign-up'
-OPENAI_API_KEY=
+#PostgreSQL URL (NEON.TEch)
+DATABASE_URL=
+
+#  Kinde Auth
+KINDE_SITE_URL=
+KINDE_POST_LOGIN_REDIRECT_URL=
+KINDE_POST_LOGOUT_REDIRECT_URL=
+KINDE_CLIENT_ID=
+KINDE_CLIENT_SECRET=
+KINDE_ISSUER_URL=
+
+# Web URL
+NEXT_PUBLIC_SERVER_URL=
+
+# Admin Email
+ADMIN_EMAIL=
+
+# UploadThing Crendntial
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
+
+# Stripe Crendential
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+
+# Resend Crendential
+RESEND_API_KEY=
+
 ```
 
 **Running the Project**
